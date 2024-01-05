@@ -1,0 +1,9 @@
+@charset "UTF-8";
+
+body{
+    background-color: #233eff;
+    width: 100vw;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: contain;
+}

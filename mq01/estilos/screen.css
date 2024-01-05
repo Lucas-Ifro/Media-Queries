@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+h1.titulo{
+    font-size: 3em;
+    font-weight: bolder;
+    width: 100%;
+    text-align: center;
+
+}
+
+menu li{
+    display: inline-block;
+    padding: 5px;
+    font-size: 1.1em;
+    border-radius: 10%;
+}
+
+li:hover{
+    background-color: lightblue;
+    transition: 0.5s;
+}
+
+p,h2{
+    max-width: 500px;
+    min-width: 280px;
+    display: block;
+    margin: auto;
+    margin-bottom: 30px;
+    text-align: justify;
+}
+

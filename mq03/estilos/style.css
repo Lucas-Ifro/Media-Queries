@@ -1,0 +1,66 @@
+@charset "UTF-8";
+
+@media all{
+    *{
+        margin: 0px;
+        padding: 0px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    body{
+        width: 100vw;
+        height: 100vh;
+    }
+    div#img{
+        width: 500px;
+        height: 500px;
+
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: block;
+        margin: auto;  
+        margin-top: 20px;   
+        background-position: center;
+    }
+}
+
+@media (min-width: 320px){
+    div#img{
+        background-image: url(../../imagens/icon-phone.png);
+        max-width: 150px;
+        max-height: 150px;
+    }
+}
+
+@media (min-width: 480px){
+    div#img{
+        background-image: url(../../imagens/back-phone.jpg);
+        max-width: 250px;
+        max-height: 250px;
+    }
+}
+
+@media (min-width: 768px){
+    div#img{
+        background-image: url(../../imagens/icon-tablet.png);
+        max-width: 250px;
+        max-height: 250px;
+    }
+}
+
+@media (min-width: 1024px){
+    div#img{
+        background-image: url(../../imagens/icon-pc.png);
+        max-width: 250px;
+        max-height: 250px;
+    }
+}
+
+@media (min-width: 1201px){
+    div#img{
+        background-image: url(../../imagens/icon-pc.png);
+        max-width: 250px;
+        max-height: 250px;
+    }
+}
+
+
